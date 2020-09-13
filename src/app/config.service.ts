@@ -20,6 +20,7 @@ export interface Employee {
 export class ConfigService {
 
   apiUrl = 'https://spring-boot-angular6.herokuapp.com';
+
   // apiUrl = 'http://localhost:8080';
 
   constructor(private http: HttpClient) {
